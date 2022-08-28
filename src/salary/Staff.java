@@ -1,3 +1,5 @@
+package salary;
+
 public abstract class Staff implements Comparable<Staff> {
     private int staffCode;
     private String fullName;

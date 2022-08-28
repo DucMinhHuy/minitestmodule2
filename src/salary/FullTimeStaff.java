@@ -1,4 +1,6 @@
-public class FullTimeStaff extends Staff{
+package salary;
+
+public class FullTimeStaff extends Staff {
     private double bonus;
     private double fine;
     private double hardSalary;

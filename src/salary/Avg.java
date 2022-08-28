@@ -1,3 +1,5 @@
+package salary;
+
 import java.util.Scanner;
 public class Avg {
     public static void main(String[] args) {
@@ -29,21 +31,21 @@ public class Avg {
         double sum = 0;
 //        double count = 0;
 //        for (int i = 0; i < listStaff.length; i++) {
-//            if (listStaff[i] instanceof FullTimeStaff) {
-//                FullTimeStaff p = (FullTimeStaff) listStaff[i];
+//            if (listStaff[i] instanceof salary.FullTimeStaff) {
+//                salary.FullTimeStaff p = (salary.FullTimeStaff) listStaff[i];
 //                StaffSalary = p.getFullTime();
 //                count++;
-//                for (Staff huy:listStaff) {
+//                for (salary.Staff huy:listStaff) {
 //                    sum+=count;
 //                }
 //            }
 //        }
 //        for (int i = 0; i < listStaff.length; i++) {
-//            if (listStaff[i] instanceof FartTime) {
-//                FartTime p = (FartTime) listStaff[i];
+//            if (listStaff[i] instanceof salary.FartTime) {
+//                salary.FartTime p = (salary.FartTime) listStaff[i];
 //                StaffSalary = p.getFartTime();
 //                count++;
-//                for (Staff huy:listStaff) {
+//                for (salary.Staff huy:listStaff) {
 //                    sum+=p.getFartTime();
 //                }
 //            }

@@ -1,4 +1,6 @@
-public class FartTime extends Staff{
+package salary;
+
+public class FartTime extends Staff {
     private double Hourly=100;
     private double workTime;
     public FartTime(){}
